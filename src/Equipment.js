@@ -55,7 +55,7 @@ class Equipment extends React.Component {
             <p>{(this.state.isFav) ? '❤️' : ''}</p>
 
             <Button className="m-1" onClick={this.onAdd}>Add</Button>
-            <Button className="m-1" onClick={this.onRemove}>Remove</Button>
+            <Button variant="danger" className="m-1" onClick={this.onRemove}>Remove</Button>
           </Card.Body>
         </Card>
       </div>
